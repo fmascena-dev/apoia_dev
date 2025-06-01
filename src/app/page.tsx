@@ -1,7 +1,6 @@
-import { FeatureCard } from "@/components/FeatureCard";
-import { Button } from "@/components/ui/button";
-import { ArrowRight, HandCoins, Heart, Shield, Zap } from "lucide-react";
-
+import { FeatureCard } from '@/components/FeatureCard';
+import { Button } from '@/components/ui/button';
+import { ArrowRight, HandCoins, Heart, Shield, Zap } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -28,8 +27,8 @@ export default function Home() {
               </h1>
 
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Receba doações diretamente dos seus seguidores através de uma página personalizada e elegante, sem
-                complicações.
+                Receba doações diretamente dos seus seguidores através de uma
+                página personalizada e elegante, sem complicações.
               </p>
 
               <div className="pt-4">
@@ -45,7 +44,6 @@ export default function Home() {
                 </form>
               </div>
             </div>
-
           </div>
 
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
